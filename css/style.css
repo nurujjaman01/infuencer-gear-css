@@ -1,3 +1,7 @@
+body{
+    border: 1px solid;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -36,9 +40,9 @@ font-weight: 600;
     
     }
 .baner-img img{
-    background-image: url(/images/Circle\ design.svg);
-    width: 440px;
-    height: 414px; 
+    background-image: url(/images/Circle\ design.svg) ;
+     width: 440px;
+    height: 414px;  
 
 
 
@@ -85,6 +89,7 @@ margin-bottom: 20px;
 margin: 50px 120px ;
 padding:  30px 10px;
 background: #FFF;
+    
     display: flex;
     gap: 62.40px;
     align-items: center;
@@ -175,6 +180,7 @@ font-style: normal;
 font-weight: 700;
 margin-top: -11px;
 
+
 }
  #see-button{
     color: #FFF;
@@ -239,7 +245,7 @@ border-radius: 5px;
     gap: 96px;
 }
 /* footer section style */
-footer{
+footer {
     background-color:#0A0826;
     text-align: center;
     padding: 20px 50px;
@@ -273,4 +279,137 @@ margin-bottom: 17px;
 
     
 }
+.hide{
+    display: none;
+}
+/* media qury section style */
+@media screen and (max-width:567px) {
+nav{
+    flex-direction: column-reverse;
+    padding: 0px;
+     width: 450px;
+    }
+    .nav-icon ul{
+        padding: 0px;
+    }
+    .nav-title{
+        margin-top: -21px;
+    } 
+ /* baner style  */
+ .baner{
+    flex-direction: column-reverse;
+    padding: 0px;
+    
+   
+    
+ }
 
+ 
+ 
+ .info-title{
+    
+    font-size: 30px;
+    text-align: center;
+    margin-top: 70px;
+    margin-left:40px;
+    margin-right:-90px ;
+    margin-bottom: 20px;
+ }
+ .info-discription{
+    text-align: center;
+
+    margin-left:50px;
+    margin-right: -100px;
+ }
+ .info-button{
+    margin-left: 130px;
+ }
+ .logos{
+    
+    
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 40px;
+    margin: 0px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    
+
+
+ } 
+ .courses{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+
+}
+.popular-collection{
+    margin: 0px;
+margin-top: 20px;}
+/* Featured section style-------------------------- */
+.Featured{
+    flex-direction: column;
+                                }
+    .featured-img img{
+        width: 100%;
+    }
+    .featured-title{
+        text-align: center;
+        margin-top: -70px;
+    }
+    .featured-dicription{
+        width: 100%;
+        text-align: center;
+        padding: 2px;
+    }
+    .featured-button{
+
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+ 
+ 
